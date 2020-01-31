@@ -3,7 +3,7 @@ This script creating custom alert rules.
 #### 1. To use this script need to install NodeJs version LTS locally and npm or yarn.
 #### 2. Run command in terminal **_yarn_** or **_npm i_** for install some libs.
 #### 3. Fill JSON in the **_data_** folder in the project. 
-Some explanation for fields in JSON.
+Some explanations for fields in JSON.
 
 **_masterApiUrl_** <br /> 
 set to one of three values, depending on the environment in which the queries are to be executed
@@ -47,4 +47,4 @@ For example,
 }
 ```
 
-#### 4. Run comand in terminal for running script **_yarn start_** or **_npm run start_**
+#### 4. Run command in a terminal for running script **_yarn start_** or **_npm run start_**
