@@ -1,0 +1,23 @@
+{
+  "masterApiUrl": "",
+  "credentials": {
+    "email": "",
+    "password": ""
+  },
+  "data": [
+    {
+      "environmentId": "",
+      "rules": [
+        {
+          "statType":"",
+          "period":"",
+          "min":0,
+          "max":0,
+          "startTimeSeconds":0,
+          "endTimeSeconds":0
+        }
+      ],
+      "nodeIds": []
+    }
+  ]
+}
