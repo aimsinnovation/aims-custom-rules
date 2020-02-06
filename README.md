@@ -6,13 +6,10 @@ This script creating custom alert rules.
 Some explanations for fields in JSON.
 
 **_masterApiUrl_** <br /> 
-set to one of three values, depending on the environment in which the queries are to be executed
-* **alpha** http://test.aimsinnovation.com/api/
-* **beta** https://beta-api.aimsinnovation.com/api/
 * **prod** https://api.aimsinnovation.com/api/
 
 **_credentials_** <br />
-email and password according to the environment (alpha, beta or prod)
+User email and password according to the environment
 
 **_data_** <br />
 consists of objects with the following values
@@ -23,14 +20,14 @@ consists of objects with the following values
 For example,
 ```
 {
-  "masterApiUrl": "http://test.aimsinnovation.com/api/",
+  "masterApiUrl": "https://api.aimsinnovation.com/api/",
   "credentials": {
-    "email": "internal_alert@aimsinnovation.com",
+    "email": "your_user_email",
     "password": "*******"
   },
   "data": [
     {
-      "environmentId": "c6d56a45-a473-474e-813c-a5a6f6018667",
+      "environmentId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx",
       "rules": [
         {
           "statType":"aims.mssql.size-available-size",
@@ -41,10 +38,10 @@ For example,
           "endTimeSeconds":39600
         }
       ],
-      "nodeIds": [2813, 213123123]
+      "nodeIds": [xxxx, xxxx]
     }
   ]
 }
 ```
 
-#### 4. Run command in a terminal for running script **_yarn start_** or **_npm run start_**
+#### 4. Run command in a terminal **_yarn start_** or **_npm run start_**
