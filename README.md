@@ -1,5 +1,5 @@
 # AIMS custom rules
-This script creating custom alert rules.
+This script is for creating custom alert rules.
 #### 1. To use this script you need to install NodeJs version LTS locally and npm or yarn.
 #### 2. Run the following command in terminal **_yarn_** or **_npm i_** to install necessary libs.
 #### 3. Edit the JSON file in the **_data_** folder in the project. 
