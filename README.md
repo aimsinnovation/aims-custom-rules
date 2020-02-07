@@ -17,7 +17,7 @@ consists of objects with the following values
 * **rules**  list of rules
 * **nodeIds** list of nodeIds where the rules will be applied
 <br /><br />
-For example,
+Example:
 ```
 {
   "masterApiUrl": "https://api.aimsinnovation.com/api/",
